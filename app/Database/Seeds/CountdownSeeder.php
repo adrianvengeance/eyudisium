@@ -4,7 +4,7 @@ namespace App\Database\Seeds;
 
 use CodeIgniter\Database\Seeder;
 
-class Countdown extends Seeder
+class CountdownSeeder extends Seeder
 {
     public function run()
     {
