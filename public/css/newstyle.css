@@ -1,0 +1,103 @@
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* h1 {
+  font-size: 1rem;
+} 1rem = 16px */
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 539px) {
+  h1.responsif {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  h5.responsif {
+    font-size: 0.9rem;
+  }
+  h6.responsif {
+    font-size: 0.9rem;
+  }
+  .textresponsif {
+    font-size: 0.8rem;
+  }
+  .formtextresponsif {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 540px) {
+  h1.responsif {
+    font-size: 1.5rem;
+  }
+  h5.responsif {
+    font-size: 1.5rem;
+  }
+  h6.responsif {
+    font-size: 1.5rem;
+  }
+  .textresponsif {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  h1.responsif {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1.responsif {
+    font-size: 2.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1.responsif {
+    font-size: 2.5rem;
+  }
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+/* @media (min-width: 950px) and (max-width: 1100px) {
+  h1 {
+    font-size: 2.75rem;
+    color: red;
+  }
+} */
+
+.notbold {
+  font-weight: normal;
+}
+
+ul.bulat li {
+  list-style-type: none;
+  /* content: "• "; */
+  /* color: blue; */
+}
+
+/* abbr */
+/* abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+  background-color:#dfe7ff;
+} */
