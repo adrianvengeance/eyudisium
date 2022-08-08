@@ -10,7 +10,6 @@
         "dompdf/dompdf": "^1.0"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.16",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.1"
     },
