@@ -103,7 +103,7 @@ class Admincheck extends Migration
             ],
         ]);
         // Membuat primary key
-        $this->forge->addKey('id_admin', TRUE);
+        $this->forge->addKey('id', TRUE);
 
         // Membuat tabel
         $this->forge->createTable('admincheck', TRUE);

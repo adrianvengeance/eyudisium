@@ -27,6 +27,6 @@ class CountdownSeeder extends Seeder
             ]
         ];
 
-        $this->db->table('countdown')->insert($data);
+        $this->db->table('countdown')->insertBatch($data);
     }
 }

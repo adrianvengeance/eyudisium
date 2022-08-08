@@ -16,10 +16,6 @@ class MahasiswaSeeder extends Seeder
             'prodi'         => 'Informatika',
             'fakultas'      => 'Sains dan Teknologi'
         ];
-
-        // // Simple Queries
-        // $this->db->query("INSERT INTO mahasiswa (npm, nama) VALUES(:npm:, :nama:)", $data);
-        // Using Query Builder
         $this->db->table('mahasiswa')->insert($data);
     }
 }

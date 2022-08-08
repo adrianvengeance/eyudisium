@@ -27,6 +27,6 @@ class DosenSeeder extends Seeder
             ]
         ];
 
-        $this->db->table('countdown')->insert($data);
+        $this->db->table('dosen')->insertBatch($data);
     }
 }
