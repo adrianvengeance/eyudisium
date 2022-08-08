@@ -9,7 +9,14 @@ class MahasiswaSeeder extends Seeder
 {
     public function run()
     {
-        $data = ['npm' => 18111100031];
+        $data = [
+            'npm'           => 12345678901,
+            'nama'          => 'Upin',
+            'jeniskelamin'  => 'm',
+            'nomorwa'       => 82112121212,
+            'prodi'         => 'Informatika',
+            'fakultas'      => 'Sains dan Teknologi'
+        ];
 
         // // Simple Queries
         // $this->db->query("INSERT INTO mahasiswa (npm, nama) VALUES(:npm:, :nama:)", $data);
