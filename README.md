@@ -38,7 +38,11 @@ Saya sarankan menggunakan [XAMPP](https://www.apachefriends.org/download.html) s
 
 - Buka lagi terminal pada folder project ini lalu ketik `php spark migrate` dan enter. Ini akan me-migrasikan semua table yang dibutuhkan.
 
-- Selanjutnya `php spark db:seed CountdownSeeder`, lalu `php spark db:seed DosenSeeder`, `php spark db:seed MahasiswaSeeder` dan `php spark db:seed UsersSeeder`, secara bergantian. Proses ini akan mengisi table Countdown, Dosen, Mahasiswa dan Users.
+- Selanjutnya `php spark db:seed CountdownSeeder`,
+`php spark db:seed DosenSeeder`,
+`php spark db:seed MahasiswaSeeder`,
+`php spark db:seed UsersSeeder`, secara bergantian.
+Proses ini akan mengisi table Countdown, Dosen, Mahasiswa dan Users.
 
 - Terkahir `php spark serve`, lalu biarkan terminal-nya berjalan. Silakan buka [localhost:8080](http://localhost:8080) pada browser untuk menjalankan web-nya.
 
