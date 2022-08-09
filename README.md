@@ -60,7 +60,7 @@ Untuk countdown-nya atau batas waktu periode yaitu hari ini, di-insert dengan `n
 
 ## More
 
-Jika ingin menanyakn tentang project ini bisa menghubungi saya lewat moh.adrian11@gmail.com atau lewat DM Instagram.
+Jika ingin menanyakn tentang project ini bisa menghubungi saya lewat moh.adrian11@gmail.com atau lewat DM [Instagram](https://instagram.com/adrian.vengeance).
 
 <!---## Server Requirements
 
