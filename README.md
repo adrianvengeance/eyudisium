@@ -4,13 +4,12 @@ Aplikasi web yang meng-handle proses dari Yudisium ini saya buat untuk kampus kh
 
 Pada aplikasi ini terdapat 4 level user, yaitu Admin Akademik, Admin Fakultas, Admin Prodi dan Mahasiswa.
 
-Alur dari aplikasi ini adalah:
-+ Admin akan menginput NPM mahasiwa.
-+ Admin fakultas membuat batas waktu periode yudisium
-+ Mahasiswa yang NPM-nya sudah ada bisa melakukan pencarian kemudian mengupload berkas awal yang diperlukan.
+Alur dari aplikasi ini adalah sebagai berikut:
++ Admin menginput NPM mahasiwa.
++ Admin fakultas menetapkan batas waktu periode yudisium
++ Mahasiswa bisa melakukan pencarian NPM jika sudah terdaftar kemudian mengupload berkas awal yang diperlukan.
 + Admin akademik akan membuatkan akun untuk mahasiswa tersebut. Admin akademik juga yang berhak membuatkan akun untuk admin fakultas dan prodi.
-+ Mahasiswa akan diberi tahu jika sudah dibuatkan akun untuknya.
-+ Mahasiswa bisa mengupload berkas lain yang dibutuhkan untuk proses Yudisium dan juga mengisi data alumni, lalu mengajukan proses yudisium jika masih dalam periode.
++ Mahasiswa login lalu mengupload berkas lain yang dibutuhkan untuk proses Yudisium, lalu mengajukan yudisium jika masih dalam periode.
 + Berkas mahasiswa akan diperiksa dimulai dari Admin Prodi sesuai prodi mahasiswa, lalu Admin Fakultas sesuai fakultas mahasiswa, Admin Akademik semua mahasiswa lalu kembali lagi ke Admin Fakultas.
 + Jika berkas masih keliru, mahasiswa akan diberi tahu lalu mengupload lagi berkas yang keliru.
 + Jika tidak, maka mahasiswa lolos proses yudisium.
@@ -60,7 +59,7 @@ Untuk countdown-nya atau batas waktu periode yaitu hari ini, di-insert dengan `n
 
 ## More
 
-Jika ingin menanyakn tentang project ini bisa menghubungi saya lewat moh.adrian11@gmail.com atau lewat DM [Instagram](https://instagram.com/adrian.vengeance).
+Jika ingin menghubungi atau menanyakan tentang project ini bisa lewat moh.adrian11@gmail.com, lewat DM [Instagram](https://instagram.com/adrian.vengeance) atau lewat [Telegram](https://t.me/apaitusername).
 
 <!---## Server Requirements
 
