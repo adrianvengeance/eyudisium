@@ -24,7 +24,7 @@
                   <div id="collapseOne" class="">
                     <div class="card-body row px-5">
                       <div class="col-md-9 textresponsif">
-                        <p>Jika NPM tidak ada, silakan menghubungi Admin Biro Administrasi Akademik via Whatsapp dinomor ini <a href="https://wa.me/6282135354575" target="_blank">0821-3535-4575</a>, atau datang langsung ke BAAk</p>
+                        <p>Jika NPM tidak ada, silakan menghubungi Admin Biro Administrasi Akademik via Whatsapp dinomor ini <a href="https://wa.me/6282112121212" target="_blank">0821-1212-1212</a>, atau datang langsung ke BAAk</p>
                       </div>
                       <div class="col-md-3"><img class="img-fluid img-responsive" loading="lazy" src="<?= base_url('/img/info/undraw_Search_re_x5gq.png') ?>" alt="Search"></div>
                     </div>
