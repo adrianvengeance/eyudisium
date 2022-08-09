@@ -1,54 +1,45 @@
-# CodeIgniter 4 Application Starter
+# E-Yudisium
 
-## What is CodeIgniter?
+## About
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Aplikasi web ini saya buat untuk kampus khususnya bagian administrasi akademik ketika kerja praktek.
+Seperti namanya, aplikasi ini meng-handle proses dari Yudisium yang mana prosesnyanya yaitu upload berkas lalu di verifikasi oleh admin yang bersangkutan sehingga bisa dilakukan melalui internet.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Aplikasi ini menggunakan PHP full-stack web framework yaitu [CodeIgniter 4](https://codeigniter.com), lalu [SB Admin 2](https://github.com/startbootstrap/startbootstrap-sb-admin-2) sebagai template HTML CSS JavaScript-nya dan MySQL sebagai database.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+## Install
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+Jika komputer anda belum terintsall [composer](https://getcomposer.org/download/), silakan install terlebih dahulu.
 
-## Installation & updates
+Saya sarankan menggunakan [XAMPP](https://www.apachefriends.org/download.html) sebagai web server dengan PHP versi 7.3 ke atas.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+- Setelah di clone, pindahkan file foldernya ke folder `xampp/htdocs`.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+- Buka foldernya dengan code editor, lalu rename file `env` pada folder root menjadi `.env` lalu sesuaikan database-nya, biarkan saja jika tidak ingin merubah apapun.
 
-## Setup
+- Selanjutnya buka CLI atau terminal pada folder ini, lalu ketik `composer update` dan enter. Proses `composer update` tergantung dari koneksi internet, tetapi ini tidak akan lama.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+- Setelah selesai, copy file **spark** yang ada di `vendor/codeigniter4/framework/spark` ke folder root.
 
-## Important Change with index.php
+- Lalu copy juga file **index.php** yang ada di `vendor/codeigniter4/framework/public/index.php` ke folder `public/`.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- Aktifkan Apache dan MySQL pada XAMPP-nya, lalu buka [localhost/phpmyadmin](http://localhost/phpmyadmin) pada browser. Buat database baru sesuai dengan nama database pada file `.env` tadi yaitu `eyudisium`.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- Buka lagi terminal pada folder project ini lalu ketik `php spark migrate` dan enter. Ini akan me-migrasikan semua table yang dibutuhkan.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+- Selanjutnya `php spark db:seed CountdownSeeder`, lalu `php spark db:seed DosenSeeder`, `php spark db:seed MahasiswaSeeder` dan `php spark db:seed UsersSeeder`, secara bergantian. Proses ini akan mengisi table Countdown, Dosen, Mahasiswa dan Users.
 
-## Repository Management
+- Terkahir `php spark serve`, lalu biarkan terminal-nya berjalan. Silakan buka [localhost:8080](http://localhost:8080) pada browser untuk menjalankan web-nya.
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## Running
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
 
-## Server Requirements
+
+
+
+
+
+<!---## Server Requirements
 
 PHP version 7.3 or higher is required, with the following extensions installed:
 
@@ -60,4 +51,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+- xml (enabled by default - don't turn it off)]:--->
