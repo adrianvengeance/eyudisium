@@ -79,7 +79,7 @@
                   <div id="collapseFour" class="">
                     <div class="card-body row px-5">
                       <div class="col-md-9 textresponsif">
-                        <p>Berkas-berkas yang dibutuhkan seperti foto warna terbaru ukuran 3x4, foto hitam putih, KTM, Akta lahir, Ijazah hingga Surat-surat keterangan lainnya.</p>
+                        <p>Berkas-berkas yang dibutuhkan seperti foto warna terbaru ukuran 3x4, foto hitam putih, KTM, Akta lahir, Ijazah hingga surat-surat keterangan lainnya.</p>
                       </div>
                       <div class="col-md-3">
                         <img class="img-fluid img-responsive" loading="lazy" src="<?= base_url('/img/info/undraw_File_manager_re_ms29.png') ?>" alt="Files">
