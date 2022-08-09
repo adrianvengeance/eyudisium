@@ -8,6 +8,7 @@ class CountdownSeeder extends Seeder
 {
     public function run()
     {
+        helper('date');
         $data = [
             [
                 'fakultas'      => 'FKIP',
