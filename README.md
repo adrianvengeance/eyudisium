@@ -45,11 +45,22 @@ Saya sarankan menggunakan [XAMPP](https://www.apachefriends.org/download.html) s
 
 ## Running
 
+![Screenshot (563)](https://user-images.githubusercontent.com/67651472/183603342-fcd01082-1ae0-44ab-87af-a2405a130105.png)
 
+Web-nya akan tampil seperti ini.
 
+Users ada 3 yaitu:
++ Admin BAAk dengan `username: adminbaak dan password: adminbaak123`.
++ Admin Fakultas Sains dan Teknologi dengan `username: adminsaintek dan password: adminsaintek123`.
++ Admin Prodi Informatika dengan `username: admininformatika dan password: admininformatika123`.
 
+Untuk mahasiswa ada 1 dengan NPM `12345678901`.
 
+Untuk countdown-nya atau batas waktu periode yaitu hari ini, di-insert dengan `now()` dari PHP. Bisa diubah dengan membuat akun untuk fakultas Bisnis, FKIP dan Pertanian.
 
+## More
+
+Jika ingin menanyakn tentang project ini bisa menghubungi saya lewat moh.adrian11@gmail.com atau lewat DM Instagram.
 
 <!---## Server Requirements
 
