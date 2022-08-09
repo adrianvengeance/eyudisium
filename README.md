@@ -1,9 +1,21 @@
 # E-Yudisium
 
-## About
+Aplikasi web yang meng-handle proses dari Yudisium ini saya buat untuk kampus khususnya bagian administrasi akademik ketika kerja praktek.
 
-Aplikasi web ini saya buat untuk kampus khususnya bagian administrasi akademik ketika kerja praktek.
-Seperti namanya, aplikasi ini meng-handle proses dari Yudisium yang mana prosesnyanya yaitu upload berkas lalu di verifikasi oleh admin yang bersangkutan sehingga bisa dilakukan melalui internet.
+Pada aplikasi ini terdapat 4 level user, yaitu Admin Akademik, Admin Fakultas, Admin Prodi dan Mahasiswa.
+
+Alur dari aplikasi ini adalah:
++ Admin akan menginput NPM mahasiwa.
++ Admin fakultas membuat batas waktu periode yudisium
++ Mahasiswa yang NPM-nya sudah ada bisa melakukan pencarian kemudian mengupload berkas awal yang diperlukan.
++ Admin akademik akan membuatkan akun untuk mahasiswa tersebut. Admin akademik juga yang berhak membuatkan akun untuk admin fakultas dan prodi.
++ Mahasiswa akan diberi tahu jika sudah dibuatkan akun untuknya.
++ Mahasiswa bisa mengupload berkas lain yang dibutuhkan untuk proses Yudisium dan juga mengisi data alumni, lalu mengajukan proses yudisium jika masih dalam periode.
++ Berkas mahasiswa akan diperiksa dimulai dari Admin Prodi sesuai prodi mahasiswa, lalu Admin Fakultas sesuai fakultas mahasiswa, Admin Akademik semua mahasiswa lalu kembali lagi ke Admin Fakultas.
++ Jika berkas masih keliru, mahasiswa akan diberi tahu lalu mengupload lagi berkas yang keliru.
++ Jika tidak, maka mahasiswa lolos proses yudisium.
+
+## About
 
 Aplikasi ini menggunakan PHP full-stack web framework yaitu [CodeIgniter 4](https://codeigniter.com), lalu [SB Admin 2](https://github.com/startbootstrap/startbootstrap-sb-admin-2) sebagai template HTML CSS JavaScript-nya dan MySQL sebagai database.
 
