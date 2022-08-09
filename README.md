@@ -28,7 +28,7 @@ Saya sarankan menggunakan [XAMPP](https://www.apachefriends.org/download.html) s
 
 - Buka foldernya dengan code editor, lalu rename file `env` pada folder root menjadi `.env` lalu sesuaikan database-nya, biarkan saja jika tidak ingin merubah apapun.
 
-- Selanjutnya buka CLI atau terminal pada folder ini, lalu ketik `composer update` dan enter. Proses `composer update` tergantung dari koneksi internet, tetapi ini tidak akan lama.
+- Selanjutnya buka CLI atau terminal pada folder ini, lalu ketik `composer update` dan enter. Proses ini tergantung dari koneksi internet, tetapi ini tidak akan lama.
 
 - Setelah selesai, copy file **spark** yang ada di `vendor/codeigniter4/framework/spark` ke folder root.
 
