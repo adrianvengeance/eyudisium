@@ -16,7 +16,7 @@ Alur dari aplikasi ini adalah sebagai berikut:
 
 ## About
 
-Aplikasi ini menggunakan PHP full-stack web framework yaitu [CodeIgniter 4](https://codeigniter.com), lalu [SB Admin 2](https://startbootstrap.com/theme/sb-admin-2) sebagai template HTML CSS JavaScript-nya dan MySQL sebagai database.
+Aplikasi ini menggunakan PHP full-stack web framework yaitu [CodeIgniter 4](https://codeigniter.com), lalu [SB Admin 2](https://startbootstrap.com/theme/sb-admin-2) sebagai template HTML CSS JavaScript-nya dan MySQL sebagai database. Menggunakan juga _library_ seperti dompdf dan DataTables.
 
 ## Install
 
